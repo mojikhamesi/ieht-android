@@ -7,5 +7,9 @@
     "nosearchresults": "نتایجی برای جستجوی شما وجود نداشت.",
     "password": "رمز ورود",
     "search": "جستجو",
-    "searchcourses": "جستجو بین درس‌ها"
+    "searchcourses": "جستجو بین درس‌ها",
+	"searchcoursesadvice": "",
+	"errorloadcourses": "خطا در بارگذاری اطلاعات",
+	"errorsearching": "خطا در جستجوی اطلاعات",
+	"errorselfenrol": "خطا در پایش اطلاعات"
 }

@@ -1,3 +1,7 @@
 {
-    "notifications": "هشدارها"
+    "notifications": "هشدارها",
+	"calendarevents": "رویدادهای تقویم",
+    "errorloadevent": "خطا در بارگذاری رویداد",
+    "errorloadevents": "خطا در بارگذاری رویدادها",
+    "noevents": "رویدادی وجود ندارد"
 }

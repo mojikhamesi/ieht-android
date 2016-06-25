@@ -1,4 +1,17 @@
 {
-    "contents": "محتوی",
-    "showall": "نمایش همه"
+    "activitynotyetviewable": "امکان مشاهده این بخش هنوز در این برنامه وجود ندارد.",
+    "activitynotyetviewablegothere": "امکان مشاهده این بخش هنوز در این برنامه گنجانده نشده است، برای مشاهده به سایت مراجعه نمایید.",
+    "allsections": "تمامی بخش ها",
+    "confirmdownload": "آیا از دانلود محتوا مطمئن هستید؟",
+    "confirmdownloadunknownsize": "We were unable to calculate the size of the download. Are you sure you want to download?",
+    "contents": "محتوا",
+    "couldnotloadsections": "بارگذاری بخش امکانپذیر نیست، لطفا دوباره تلاش کنید",
+    "couldnotloadsectioncontent": "بارگذاری محتوای بخش امکانپذیر نیست، لطفا دوباره تلاش کنید",
+    "errordownloadingsection": "خطا در دانلود بخش.",
+    "errorgetmodule": "خطا در دریافت اطلاعات",
+    "gotothesite": "به سایت مراجعه شود",
+    "nocontentavailable": "محتوایی در این لحظه موجود نیست",
+    "overriddennotice": "نمره نهایی شما از این فعالیت بصورت دستی تنظیم شده است",
+    "showall": "نمایش همه",
+    "whoops": "اوووپس!"   
 }

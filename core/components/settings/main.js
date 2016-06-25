@@ -61,6 +61,16 @@ angular.module('mm.core.settings', [])
         }
     })
 
+	.state('site.mm_settings-poweredby', {
+        url: '/mm_settings-poweredby',
+        views: {
+            'site': {
+                templateUrl: 'core/components/settings/templates/poweredby.html',
+                controller: 'mmSettingsPoweredByCtrl'
+            }
+        }
+    })
+	
     .state('site.mm_settings-synchronization', {
         url: '/mm_settings-synchronization',
         views: {
