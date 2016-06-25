@@ -9,5 +9,5 @@
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-	"siteurl": "http://109.109.35.7/mlms"
+	"siteurl": "109.109.35.7/mlms"
 }
