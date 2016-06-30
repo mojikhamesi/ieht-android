@@ -24,7 +24,7 @@ angular.module('mm.core')
 .factory('$mmLang', function($translate, $translatePartialLoader, $mmConfig, $cordovaGlobalization, $q, mmCoreConfigConstants) {
 
     var self = {},
-        fallbackLanguage = 'fa',
+        fallbackLanguage = 'en',
         currentLanguage; // Save current language in a variable to speed up the get function.
 
     /**
@@ -67,8 +67,7 @@ angular.module('mm.core')
         return $mmConfig.get('current_language').then(function(language) {
             return language;
         }, function() {
-            /*
-			try {
+            try {
                 // User hasn't defined a language. Get it from cordova globalization.
                 return $cordovaGlobalization.getPreferredLanguage().then(function(result) {
                     var language = result.value.toLowerCase();
@@ -89,8 +88,6 @@ angular.module('mm.core')
                 // Error getting locale. Use default language.
                 return mmCoreConfigConstants.default_lang || fallbackLanguage;
             }
-			*/
-			return mmCoreConfigConstants.default_lang || fallbackLanguage;
         }).then(function(language) {
             currentLanguage = language; // Save it for later.
             return language;
@@ -161,8 +158,8 @@ angular.module('mm.core')
     $translatePartialLoaderProvider.addPart('build/lang');
 
     // Set fallback language.
-    $translateProvider.fallbackLanguage('fa');
-    $translateProvider.preferredLanguage('fa'); // Set English until we know which language to use.
+    $translateProvider.fallbackLanguage('en');
+    $translateProvider.preferredLanguage('en'); // Set English until we know which language to use.
 })
 
 .run(function($ionicPlatform, $translate, $mmLang) {
