@@ -1,7 +1,10 @@
 {
     "addnewnote": "اضافه کردن یک یادداشت جدید",
     "coursenotes": "یادداشت‌های درس",
+	"eventnotecreated": "یادداشت ایجاد شد.",
+	"nonotes": "یادداشتی از این نوع موجود نیست.",
     "note": "یادداشت",
+	"notes": "یادداشت ها",
     "personalnotes": "یادداشت‌های خصوصی",
     "publishstate": "دامنه",
     "sitenotes": "یادداشت‌های سایت"

@@ -4,7 +4,10 @@
         <a ng-href="{{externalUrl}}" class="button button-icon ion-ios-browsers-outline" mm-link></a>
     </ion-nav-buttons>
     <ion-content padding="true" mm-state-class>
-        <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" on-refresh="doRefresh()" ng-if="loaded"></ion-refresher>
+        <!--
+		<ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" on-refresh="doRefresh()" ng-if="loaded"></ion-refresher>
+		-->
+		<ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" on-refresh="doRefresh()" ng-if="loaded">test</ion-refresher>
         <mm-loading hide-until="loaded">
             <mm-course-mod-description description="description"></mm-course-mod-description>
 
