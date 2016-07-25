@@ -533,6 +533,7 @@
     "mma.mod_quiz.stateinprogress": "در جریان",
     "mma.mod_quiz.status": "وضعیت",
     "mma.mod_quiz.submitallandfinish": "ثبت همه و اتمام امتحان",
+    "mma.mod_quiz.submitattempt": "ثبت آزمون",
     "mma.mod_quiz.summaryofattempt": "خلاصه ای از تلاش ها",
     "mma.mod_quiz.summaryofattempts": "خلاصه ای از تلاش های قبلی",
     "mma.mod_quiz.timeleft": "زمان باقیمانده",

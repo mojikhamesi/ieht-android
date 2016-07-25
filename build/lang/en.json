@@ -568,6 +568,7 @@
     "mma.mod_quiz.stateoverduedetails": "Must be submitted by {{$a}}",
     "mma.mod_quiz.status": "Status",
     "mma.mod_quiz.submitallandfinish": "Submit all and finish",
+    "mma.mod_quiz.submitattempt": "Submit",
     "mma.mod_quiz.summaryofattempt": "Summary of attempt",
     "mma.mod_quiz.summaryofattempts": "Summary of your previous attempts",
     "mma.mod_quiz.timeleft": "Time left",

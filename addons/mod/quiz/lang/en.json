@@ -68,6 +68,7 @@
 	"stateoverduedetails": "Must be submitted by {{$a}}",
 	"status": "Status",
 	"submitallandfinish": "Submit all and finish",
+	"submitattempt": "Submit",
 	"summaryofattempt": "Summary of attempt",
 	"summaryofattempts": "Summary of your previous attempts",
 	"timeleft": "Time left",
