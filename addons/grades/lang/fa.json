@@ -6,5 +6,7 @@
     "grades": "نمرات",
     "itemname": "نام مورد",
     "percentage": "درصد",
-    "range": "محدوده"
+    "range": "محدوده",
+	"viewgrades": "مشاهده نمرات",
+	"weight": "وزن"
 }

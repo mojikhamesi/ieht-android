@@ -8,6 +8,7 @@
                 <select ng-model="selectedLanguage" ng-options="code as name for (code, name) in langs" ng-change="languageChanged(selectedLanguage)" aria-labelledby="mm-settings-languagelabel" mm-ios-select-fix>
                 </select>
             </li>
+						
              <li class="item item-toggle item-text-wrap">
                 <p id="mm-settings-downloadsectionlabel" class="item-heading">{{ 'mm.settings.enabledownloadsection' | translate }}</p>
                 <p>{{ 'mm.settings.enabledownloadsectiondescription' | translate }}</p>
@@ -18,6 +19,7 @@
                     </div>
                 </label>
             </li>
+			<!--
              <li class="item item-toggle item-text-wrap" ng-if="showReport">
                 <p id="mm-settings-reportlabel" class="item-heading">{{ 'mm.settings.reportinbackground' | translate }}</p>
                 <label class="toggle" aria-labelledby="mm-settings-reportlabel">
@@ -27,6 +29,7 @@
                     </div>
                 </label>
             </li>
+			-->
         </ul>
     </ion-content>
 </ion-view>

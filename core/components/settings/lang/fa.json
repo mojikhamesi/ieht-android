@@ -6,6 +6,8 @@
     "deletesitefiles": "آیا از حذف کلیه فایلهای این سایت مطمئنید؟",
     "development": "توسعه",
     "enabledebugging": "فعالسازی اشکالزدایی",
+	"enabledownloadsection": "فعالسازی دانلود محتوا",
+	"enabledownloadsectiondescription": "به منظور افزایش سرعت بارگذاری دروس این ویژگی را غیرفعال نمایید.",
 	"enablesyncwifi": "همگام سازی تنها در زمان اتصال از طریق Wi-Fi",
     "estimatedfreespace": "فضای آزاد تخمینی",
 	"haya": "شرکت تحلیلگران سامانه های هوشمند هایا",

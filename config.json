@@ -4,7 +4,7 @@
     "versionname" : "1.0",
     "cache_expiration_time" : 300000,
     "default_lang" : "fa",
-    "languages": {"en": "English" ,"fa": "فارسی"},
+    "languages": {"fa": "فارسی"},
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",

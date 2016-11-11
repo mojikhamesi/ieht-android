@@ -35,16 +35,18 @@
                         <a menu-close class="item item-icon-left" ui-sref="site.mm_courses" title="{{ 'mm.sidemenu.mycourses' | translate}}">
                             <i class="icon ion-ionic"></i>{{ 'mm.sidemenu.mycourses' | translate}}
                         </a>
-                    </li>
+                    </li>					
                     <li class="item text-center" ng-if="(!handlers || !handlers.length) && !areNavHandlersLoaded()">
                         <ion-spinner></ion-spinner>
                     </li>
+					
                     <li ng-repeat="handler in handlers | orderBy:'-priority'" ng-controller="handler.controller" class="mm-sidemenu-handler {{class}}">
                         <a menu-close class="item item-icon-left" ui-sref="{{state}}" title="{{title | translate}}">
                             <i class="icon {{icon}}"></i> {{title | translate}}
                             <span ng-show="badge > 0" class="badge badge-positive">{{badge}}</span>
                         </a>
                     </li>
+					
 					<!--
                     <li>
                         <a menu-close class="item item-icon-left" ng-href="{{siteinfo.siteurl}}" mm-link title="{{ 'mm.sidemenu.website' | translate}}">
@@ -65,7 +67,7 @@
                     </li>
 					-->
 					<li>
-                        <a menu-close class="item item-icon-left" ng-href="http://www.ieht-gtc.ir" mm-link title="{{ 'mm.sidemenu.help' | translate}}">
+                        <a menu-close class="item item-icon-left" ng-href="http://www.ieht-gtc.com/site/index.php/%D8%A7%D9%85%D9%88%D8%B1-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C/2014-09-20-06-19-40/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84%DB%8C" mm-link title="{{ 'mm.sidemenu.help' | translate}}">
                             <i class="icon ion-help-buoy"></i>{{ 'mm.sidemenu.help' | translate}}
                         </a>
                     </li>

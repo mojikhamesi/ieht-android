@@ -286,6 +286,7 @@
     "phone": "تلفن",
     "pictureof": "عکس {{$a}}",
     "previous": "قبلی",
+	"pulltorefresh": "بروز رسانی",
     "refresh": "تازه‌سازی",
     "search": "جستجو",
     "sec": "ثانیه",
