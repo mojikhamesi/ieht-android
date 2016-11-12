@@ -8137,6 +8137,9 @@ mm-timer.mm-timer.mm-timer-timeleft-15 {
 .mm-question-warning, p.mm-question-warning, .item .mm-question-warning {
   color: #c00; }
 
+#mm-settings-languagelabel {
+  color: #000; }
+
 .bar-side-menu {
   border-color: transparent;
   background-color: #f70;
@@ -8155,9 +8158,6 @@ mm-timer.mm-timer.mm-timer-timeleft-15 {
 
 .has-side-menu-header {
   top: 80px; }
-
-#mm-settings-languagelabel {
-  color: #000; }
 
 /* - User grades table (most of it extracted from MM1)
 -------------------------------------------------------------------------- */
