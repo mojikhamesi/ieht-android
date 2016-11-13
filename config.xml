@@ -30,12 +30,11 @@
     <allow-navigation href="cdvfile:*" />
     <allow-navigation href="content:*" />
     <allow-navigation href="data:*" />
+    <allow-navigation href="*" />
 
     <allow-intent href="*" />
 
-	<preference name="android-build-tool" value="gradle" />
-	
-    <preference name="phonegap-version" value="cli-5.2.0" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
@@ -43,8 +42,6 @@
     <preference name="webviewbounce"    value="false" />
     <preference name="prerendered-icon" value="true" />
     <preference name="load-url-timeout" value="60000" />
-	
-	<preference name="SplashScreenDelay" value="6000"/>
 
     <preference name="android-minSdkVersion" value="14" />
     <preference name="UIWebViewBounce" value="false" />
@@ -120,21 +117,24 @@
     <gap:plugin name="cordova-plugin-globalization" source="npm" />
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
     <gap:plugin name="cordova-plugin-network-information" source="npm" />
-    <gap:plugin name="cordova-plugin-statusbar" source="npm" />
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" version="1.0.0" />
-    <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+    <gap:plugin name="cordova-plugin-statusbar" source="npm" version="2.1.2" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+<gap:plugin name="cordova-plugin-splashscreen" source="npm" />
 
-    <gap:plugin name="com.phonegap.plugins.pushplugin" />
+    <gap:plugin name="phonegap-plugin-push" source="npm" version="1.7.0">
+        <param name="SENDER_ID" value="694767596569" />
+    </gap:plugin>
     <gap:plugin name="net.tunts.webintent" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="learnmoodle" />
+        <param name="URL_SCHEME" value="moodlemobile" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="cordova-plugin-local-notifications-mm" source="npm" />
     <gap:plugin name="ch.ti8m.documenthandler" version="0.2.1" />
+    <gap:plugin name="cordova-plugin-zip" source="npm" />
 
     <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="false" />
+         <application android:debuggable="true" />
     </gap:config-file>
 
     <!-- See MOBILE-892 -->
