@@ -15,7 +15,7 @@
                 <mm-timer ng-if="endTime" end-time="endTime" finished="timeUp()" timer-text="{{ 'mma.mod_quiz.timeleft' | translate }}"></mm-timer>
             </div>
             <div class="col col-20 text-right">
-                <a class="button button-icon white-text" ng-if="nextPage >= -1" ng-click="loadPage(nextPage)" title="{{ 'mm.core.next' | translate }}">{{ 'mma.mod_quiz.submitattempt' | translate }}</a>
+                <a class="button button-icon white-text" style="color: white;background-color: green;" ng-if="nextPage >= -1" ng-click="loadPage(nextPage)" title="{{ 'mm.core.next' | translate }}">{{ 'mma.mod_quiz.submitattempt' | translate }}</a>
 				<!--
 				<a class="button button-icon icon ion-arrow-right-b" ng-if="nextPage >= -1" ng-click="loadPage(nextPage)" title="{{ 'mm.core.next' | translate }}"></a>
 				-->
